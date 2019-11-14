@@ -54,4 +54,5 @@ def make_dataset(num: int):
 
 
 if __name__ == '__main__':
-    make_dataset(1)
+    for i in range(10):
+        make_dataset(1 + i)

@@ -2244,7 +2244,7 @@ for fixture in fixtures_duration:
     y3 = []
     yh = []
     tc = TestCase(**fixture)
-    #tc.blockchain = Blockchain.from_file("data/init/stable_300_6.json")
+    #tc.blockchain = Blockchain.from_file("data/init/stable_3600_14.json")
     tc.blockchain = Blockchain.from_file("data/init/stable_300_4.json")
     # tc.test_case_duration()
     # tc.test_case_duration_5min()
